@@ -19,7 +19,7 @@ const router = createRouter({
       component: () => import('../pages/Erfaring.vue')
     },
     {
-      path: '/erfaring/språk',
+      path: '/erfaring/lang',
       name: 'språk',
       component: () => import('../pages/Språk.vue')
     },

@@ -1,8 +1,8 @@
 <script setup lang="ts">
 
-  import { computed, ref } from 'vue'
+  import { ref } from 'vue'
 
-  const { title, kategori, stilling, oppgaver, ansatt, oppsigelse, id } = defineProps<{
+  const { title, stilling, oppgaver, ansatt, oppsigelse, id } = defineProps<{
     title: string,
     kategori: string,
     stilling: string,

@@ -6,7 +6,7 @@
   <div class="container">
     <div class="språk">
       <h2>Språk</h2>
-      <RouterLink to="/erfaring/språk"><button>Språk</button></RouterLink>
+      <RouterLink to="/erfaring/lang"><button>Språk</button></RouterLink>
     </div>
     <div class="jobb">
       <h2>Jobb</h2>
