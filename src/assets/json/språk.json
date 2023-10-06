@@ -1,22 +1,22 @@
 {
   "1": {
     "title": "VueJS",
-    "description": "AAAA",
+    "description": "VueJS er et JS-rammeverk som gjør å skrive JS kode bedre! VueJS tilbyr også TypeScript (TS). Denne portfolio nettsiden er utviklet i VueJS.",
     "id": "vue"
   },
   "2": {
     "title": "JavaScript",
-    "description": "BBBB",
+    "description": "JavaScript er et programmeringsspråk som brukes til å lage interaktive nettsider. JavaScript er et av de mest brukte programmeringsspråkene i verden. Valgomat nettsiden er utviklet i JavaScript.",
     "id": "js"
   },
   "3": {
     "title": "PHP",
-    "description": "CCCC",
+    "description": "PHP er et skriptspråk som brukes til å lage dynamiske nettsider. PHP er et av de mest brukte programmeringsspråkene i verden. I PHP utviklet jeg nettsider ved hjelp av open-source databasen phpMyAdmin. En nettside jeg har utviklet i PHP er min root nettside som du kan finne med å søke på https://root.brattaule.no",
     "id": "php"
   },
   "4": {
     "title": "HTML & CSS",
-    "description": "DDDD",
+    "description": "Alle nettsider trenger HTML og CSS kode. Jeg vil si jeg mestrer HTML og mestrer greit CSS. Med hver nettside jeg lager prøver jeg å lære meg mer og mer CSS.",
     "id": "html&css"
   }
 }
