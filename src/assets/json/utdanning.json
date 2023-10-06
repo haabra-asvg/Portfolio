@@ -1,0 +1,20 @@
+{
+  "0": {
+    "title": "VG2 Informasjonsteknologi August 2023 - dd.",
+    "description": "Abc",
+    "kontaktlærer": "Kontaktlærer: Bent Øystein Halden",
+    "id": "vg2"
+  },
+  "1": {
+    "title": "VG1 Informasjonsteknologi og Medieproduksjon August 2022 - Juli 2023",
+    "description": "Abcd",
+    "kontaktlærer": "Kontaktlærer: Bent Øystein Halden",
+    "id": "vg1"
+  },
+  "2": {
+    "title": "Rå skole 8. - 10. trinn August 2019 - Juli 2022",
+    "description": "Abcde",
+    "kontaktlærer": "Kontaktlærer: Bjørn Snorre Andersen",
+    "id": "ung"
+  }
+}
