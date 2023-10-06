@@ -1,0 +1,26 @@
+{
+  "1": {
+    "title": "Portfolio",
+    "description": "Portfolio er en nettside bygget i Vue. Nettsiden startet jeg 6. oktober 2023 og er bygget for å vise frem prosjekter jeg har jobbet med og jobber med.",
+    "url": "",
+    "lang": "Vue, HTML & CSS"
+  },
+  "2": {
+    "title": "Valgomat",
+    "description": "Valgomat er et skoleprosjekt hvor vi skulle lage en valgomat slik som TV2 eller NRK sin. I dette prosjektet var det mest vekt på programmeringen men vi måtte minst ha 10 spørsmål.",
+    "url": "",
+    "lang": "JS, HTML & CSS"
+  },
+  "3": {
+    "title": "Flybmi",
+    "description": "Flybmi er et side-prosjekt jeg har hvor jeg bygger en nettside ved hjelp av PHP. Denne siden skal være soft kodet og den har for eksempel søknader og ranger med ulike tilganger. Dette prosjektet for nå er privat og skal ikke deles.",
+    "url": "https://flybmi.brattaule.no",
+    "lang": "PHP, HTML & CSS"
+  },
+  "4": {
+    "title": "Flybmi",
+    "description": "Flybmi er et side-prosjekt jeg har hvor jeg bygger en nettside ved hjelp av PHP. Denne siden skal være soft kodet og den har for eksempel søknader og ranger med ulike tilganger. Dette prosjektet for nå er privat og skal ikke deles.",
+    "url": "https://flybmi.brattaule.no",
+    "lang": "PHP, HTML & CSS"
+  }
+}

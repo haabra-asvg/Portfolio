@@ -7,6 +7,7 @@
     <RouterLink id="hjem" to="/">Hjem</RouterLink>
     <RouterLink id="utdanning" to="/utdanning">Utdanning</RouterLink>
     <RouterLink id="erfaring" to="/erfaring">Erfaring</RouterLink>
+    <RouterLink id="prosjekter" to="/prosjekter">Prosjekter</RouterLink>
   </div>
 </template>
 
@@ -14,7 +15,7 @@
   .container {
     text-align: center;
   }
-  #hjem, #utdanning {
+  #hjem, #utdanning, #erfaring {
     margin-right: 10%;
   }
 

@@ -29,6 +29,11 @@ const router = createRouter({
       component: () => import('../pages/Jobb.vue')
     },
     {
+      path: '/prosjekter',
+      name: 'prosjekter',
+      component: () => import('../pages/Prosjekter.vue')
+    },
+    {
       path: '/:notfound(.*)',
       name: 'notfound',
       component: () => import('../pages/Error404.vue')
