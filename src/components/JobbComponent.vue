@@ -38,13 +38,14 @@
 
   <div class="card">
     <div class="header">
-      <h2>{{ title }} [{{ kategori }}] ({{ ansatt }} - {{ oppsigelse }})</h2>
+      <h2>{{ title }}</h2>
       <button :id="id" @click="changeState(id, buttonState);">+</button>
     </div>
     <Transition name="slide">
       <div v-if="buttonState" class="body">
         <p><strong>Stilling: </strong> {{ stilling }}</p>
         <p><strong>Oppgaver: </strong> {{ oppgaver }}</p>
+        <p><strong>Ansatt: </strong> {{ ansatt }} - {{ oppsigelse }}</p>
       </div>
     </Transition>
   </div>
