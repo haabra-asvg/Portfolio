@@ -9,7 +9,7 @@ const { title, stilling, oppgaver, ansatt, oppsigelse, id } = defineProps<{
   oppgaver: string,
   ansatt: string,
   oppsigelse: string,
-  id: string
+  id: string,
 }>()
 
 const buttonState = ref(false);
@@ -20,11 +20,9 @@ function changeState(id: string, btnState: boolean) {
   if (!btnState) {
     btn.style.rotate = "135deg";
     buttonState.value = true;
-    console.log(btnState);
   } else {
     btn.style.rotate = "0deg";
     buttonState.value = false;
-    console.log(btnState);
   }
 }
 
@@ -92,12 +90,12 @@ function changeState(id: string, btnState: boolean) {
 }
 
 .slide-leave-active {
-  transition: all 0.5s ease-in;
+  transition: all 0.3s ease-in;
 }
 
 .slide-enter-from,
 .slide-leave-to {
-  transform: translateY(-100px);
+  transform: translateY(-100%);
   opacity: 0;
 }
 </style>
