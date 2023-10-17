@@ -26,10 +26,19 @@ function changeState(id: string, btnState: boolean) {
   }
 }
 
+function changeBorderColor() {
+  const color = ref(localStorage.getItem("darkMode"))
+  if(color.value == "☀️") {
+    return "var(--lightText) 0 0 .1rem";
+  } else if (color.value == "🌙") {
+    return "var(--darkText) 0 0 .1rem";
+  }
+}
+
 </script>
 
 <template>
-  <div class="card">
+  <div class="card" :style="{ boxShadow: changeBorderColor() }">
     <div class="header">
       <h2>{{ title }}</h2>
       <button :id="id" @click="changeState(id, buttonState);">+</button>

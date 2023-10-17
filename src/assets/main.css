@@ -7,3 +7,10 @@ body, * {
 body::-webkit-scrollbar {
   display: none;
 }
+
+:root {
+  --darkColor: #1a1a1a;
+  --darkText: white;
+  --lightColor: white;
+  --lightText: black;
+}

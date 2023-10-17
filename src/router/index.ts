@@ -37,7 +37,7 @@ const router = createRouter({
       path: '/:notfound(.*)',
       name: 'notfound',
       component: () => import('../pages/Error404.vue')
-    }
+    },
   ]
 })
 
